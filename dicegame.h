@@ -5,8 +5,8 @@
 //enum ROUNDTYPE {BONUS, DOUBLE REGULAR};
 //enum ROUNDTYPE roundType; 
 
-
 typedef enum {BONUS,DOUBLE,REGULAR} ROUNDTYPE;
+
 int getRandomNumber( int min, int max );
 ROUNDTYPE getRoundType( );
 int getRoundPoints( ROUNDTYPE roundType );
