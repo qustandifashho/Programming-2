@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include "dicegame.h"
 
-
 int getRandomNumber (int min, int max){
     return rand() % (max - min + 1) + min; // Range of possible values from 1 to 6 inclusive (not 0)
 
